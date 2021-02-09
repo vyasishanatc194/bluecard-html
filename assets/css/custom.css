@@ -845,6 +845,14 @@ fieldset {
     font-size: 18px;
     line-height: 26px;
   }
+  .middle-section .finance-section .learn-how .cc-img {
+    position: absolute;
+    left: -15px;
+    top: -70px;
+    width: 150px;
+    display: block;
+    height: 150px;
+  }
   .middle-section .finance-section .learn-how .content h3 {
     font-size: 26px;
     line-height: 35px;
@@ -930,6 +938,14 @@ fieldset {
   }
   .middle-section .finance-section .purchase-box-root .purchase-box h2 {
     font-size: 80px;
+  }
+  .middle-section .finance-section .learn-how .cc-img {
+    position: absolute;
+    left: -30px;
+    top: -70px;
+    width: 200px;
+    display: block;
+    height: 200px;
   }
   .middle-section .contact-section .contact {
     display: -webkit-box;

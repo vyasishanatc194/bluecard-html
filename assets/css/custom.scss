@@ -851,7 +851,17 @@ fieldset {
       }
 
       .learn-how {
+
+        .cc-img {
+          position: absolute;
+          left: -15px;
+          top: -70px;
+          width: 150px;
+          display: block;
+          height: 150px;
+        }
         .content {
+          
           h3 {
             font-size: 26px;
             line-height: 35px;
@@ -956,8 +966,22 @@ fieldset {
         }
       }
     }
+    
     .finance-section .purchase-box-root .purchase-box h2 {
       font-size: 80px;
+    }
+
+    .finance-section {
+      .learn-how {
+        .cc-img {
+          position: absolute;
+          left: -30px;
+          top: -70px;
+          width: 200px;
+          display: block;
+          height: 200px;
+        }
+      }
     }
 
     .contact-section .contact {
