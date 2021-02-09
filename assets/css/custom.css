@@ -110,7 +110,6 @@ fieldset {
   }
 }
 
-/*############################ header section ###############################*/
 .header {
   height: auto;
   position: relative;
@@ -215,7 +214,7 @@ fieldset {
 .middle-section .heading-section h4 {
   font-size: 27px;
   line-height: 40px;
-  color: #026D92;
+  color: #026d92;
   font-weight: 300;
   text-align: center;
 }
@@ -251,7 +250,7 @@ fieldset {
 .middle-section .banner-section .box-apply .btn-groups .btn-apply {
   padding: 10px 30px;
   color: #fff;
-  background-color: #026D92;
+  background-color: #026d92;
   font-size: 18px;
   line-height: 24px;
   width: 100%;
@@ -280,7 +279,7 @@ fieldset {
 .middle-section .perk-section .heading h3 {
   font-size: 35px;
   line-height: 40px;
-  color: #026D92;
+  color: #026d92;
   font-weight: 300;
   text-align: center;
   position: relative;
@@ -288,8 +287,8 @@ fieldset {
 }
 
 .middle-section .perk-section .heading h3::after {
-  content: '';
-  background-color: #C12F37;
+  content: "";
+  background-color: #c12f37;
   height: 3px;
   width: 156px;
   display: block;
@@ -344,7 +343,7 @@ fieldset {
 .middle-section .perk-section .peark-circle-root .perkbox h3 {
   font-size: 20px;
   line-height: 26px;
-  color: #13749C;
+  color: #13749c;
   margin-bottom: 10px;
   font-weight: 400;
   text-align: center;
@@ -354,14 +353,14 @@ fieldset {
 .middle-section .perk-section .peark-circle-root .perkbox p {
   font-size: 15px;
   line-height: 26px;
-  color: #5D5D5D;
+  color: #5d5d5d;
   text-align: center;
 }
 
 .middle-section .perk-section .note p {
   font-size: 14px;
   line-height: 30px;
-  color: #5D5D5D;
+  color: #5d5d5d;
   text-align: center;
 }
 
@@ -377,7 +376,7 @@ fieldset {
 .middle-section .finance-section .heading h3 {
   font-size: 35px;
   line-height: 40px;
-  color: #026D92;
+  color: #026d92;
   font-weight: 300;
   text-align: center;
   position: relative;
@@ -385,8 +384,8 @@ fieldset {
 }
 
 .middle-section .finance-section .heading h3::after {
-  content: '';
-  background-color: #C12F37;
+  content: "";
+  background-color: #c12f37;
   height: 3px;
   width: 156px;
   display: block;
@@ -412,14 +411,14 @@ fieldset {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: #F6F6F5;
+  background-color: #f6f6f5;
   margin-bottom: 30px;
   -webkit-box-shadow: 0 3px 6px 0px rgba(0, 0, 0, 0.16);
           box-shadow: 0 3px 6px 0px rgba(0, 0, 0, 0.16);
 }
 
 .middle-section .finance-section .purchase-box-root .purchase-box h2 {
-  color: #026D92;
+  color: #026d92;
   font-size: 107px;
   line-height: 135px;
   font-weight: 100;
@@ -438,8 +437,8 @@ fieldset {
 }
 
 .middle-section .finance-section .purchase-box-root .purchase-box h4::after {
-  content: '';
-  background-color: #C12F37;
+  content: "";
+  background-color: #c12f37;
   height: 3px;
   width: 70px;
   display: block;
@@ -488,8 +487,8 @@ fieldset {
 }
 
 .middle-section .finance-section .card-line .card-imgs::after {
-  content: '';
-  background-color: #EAE9E8;
+  content: "";
+  background-color: #eae9e8;
   height: 2px;
   width: 40px;
   position: absolute;
@@ -499,8 +498,8 @@ fieldset {
 }
 
 .middle-section .finance-section .card-line .card-imgs::before {
-  content: '';
-  background-color: #EAE9E8;
+  content: "";
+  background-color: #eae9e8;
   height: 2px;
   width: 40px;
   position: absolute;
@@ -518,7 +517,7 @@ fieldset {
 .middle-section .finance-section .mattress-purcahse .mat-heading {
   width: 100%;
   padding: 10px 30px;
-  background-color: #026D92;
+  background-color: #026d92;
 }
 
 .middle-section .finance-section .mattress-purcahse .mat-heading h3 {
@@ -533,13 +532,13 @@ fieldset {
 
 .middle-section .finance-section .mattress-purcahse .mat-body {
   padding: 20px 30px;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
 .middle-section .finance-section .mattress-purcahse .mat-body h3 {
   font-size: 101px;
   line-height: 132px;
-  color: #026D92;
+  color: #026d92;
   font-weight: 300;
   text-align: center;
   display: -webkit-box;
@@ -555,7 +554,7 @@ fieldset {
 
 .middle-section .finance-section .mattress-purcahse .mat-body h3 span {
   color: rgba(2, 109, 146, 0.36);
-  border-left: 3px solid #B50E25;
+  border-left: 3px solid #b50e25;
   display: inline-block;
   padding-left: 20px;
   margin-left: 10px;
@@ -578,8 +577,8 @@ fieldset {
 
 .middle-section .finance-section .btn-div .btn-apply {
   max-width: 280px;
-  background-color: #0C6D92;
-  color: #FFFFFF;
+  background-color: #0c6d92;
+  color: #ffffff;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -604,7 +603,7 @@ fieldset {
 }
 
 .middle-section .finance-section .learn-how {
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   position: relative;
   min-height: 218px;
   margin-top: 100px;
@@ -621,7 +620,7 @@ fieldset {
 .middle-section .finance-section .learn-how .content h3 {
   font-size: 35px;
   line-height: 41px;
-  color: #026D92;
+  color: #026d92;
   font-weight: 300;
   text-align: center;
   position: relative;
@@ -631,8 +630,8 @@ fieldset {
 }
 
 .middle-section .finance-section .learn-how .content h3::after {
-  content: '';
-  background-color: #C12F37;
+  content: "";
+  background-color: #c12f37;
   height: 3px;
   width: 156px;
   display: block;
@@ -649,7 +648,7 @@ fieldset {
 
 .middle-section .finance-section .login-account {
   margin-top: 50px;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   padding: 20px 20px;
   width: 100%;
   display: -webkit-box;
@@ -664,7 +663,7 @@ fieldset {
 }
 
 .middle-section .finance-section .login-account .left {
-  border-right: 3px solid #B03C3D;
+  border-right: 3px solid #b03c3d;
   max-width: 210px;
   padding: 20px 15px;
 }
@@ -672,7 +671,7 @@ fieldset {
 .middle-section .finance-section .login-account .left h3 {
   font-size: 27px;
   line-height: 39px;
-  color: #026D92;
+  color: #026d92;
   font-weight: 300;
   text-transform: uppercase;
   margin-bottom: 0;
@@ -701,7 +700,7 @@ fieldset {
 
 .middle-section .finance-section .login-account .right ul li::before {
   content: "\2022";
-  color: #026D92;
+  color: #026d92;
   font-weight: bold;
   display: inline-block;
   width: 1em;
@@ -755,13 +754,13 @@ fieldset {
 .middle-section .contact-section .contact-number p {
   font-size: 37px;
   line-height: 50px;
-  color: #5D5C67;
+  color: #5d5c67;
   margin-bottom: 0;
   font-weight: 300;
 }
 
 .middle-section .contact-section .contact-number p a {
-  color: #13749C;
+  color: #13749c;
   font-size: 37px;
 }
 
@@ -787,7 +786,7 @@ fieldset {
   .middle-section .heading-section h4 {
     font-size: 22px;
     line-height: 28px;
-    color: #026D92;
+    color: #026d92;
   }
   .middle-section .banner-section {
     background-size: cover;
@@ -862,7 +861,7 @@ fieldset {
   .middle-section .finance-section .login-account .left {
     max-width: unset;
     border-right: 0;
-    border-bottom: 3px solid #B03C3D;
+    border-bottom: 3px solid #b03c3d;
   }
   .middle-section .finance-section .login-account .left h3 {
     font-size: 18px;
@@ -925,6 +924,34 @@ fieldset {
   }
   .middle-section .finance-section .purchase-box-root .purchase-box h2 {
     font-size: 80px;
+  }
+  .middle-section .contact-section .contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .middle-section .contact-section .contact .contact-img {
+    height: 120px;
+    width: 120px;
+  }
+  .middle-section .contact-section .contact .contact-img img {
+    width: 60px;
+  }
+  .middle-section .contact-section .contact .contact-number p {
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+  }
+  .middle-section .contact-section .contact .contact-number p a {
+    font-size: 24px;
+    line-height: 35px;
   }
 }
 
