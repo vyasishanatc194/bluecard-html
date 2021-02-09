@@ -903,6 +903,56 @@ fieldset {
   }
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  .middle-section .banner-section {
+    background-size: cover;
+  }
+  .middle-section .perk-section .heading h3 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .middle-section .perk-section .heading h3::after {
+    width: 100px;
+    bottom: -20px;
+  }
+  .middle-section .perk-section .peark-circle-root .perkbox .peark-circle {
+    height: 120px;
+    width: 118px;
+  }
+  .middle-section .perk-section .peark-circle-root .perkbox .peark-circle img {
+    width: 60px;
+    height: 60px;
+  }
+  .middle-section .finance-section .purchase-box-root .purchase-box h2 {
+    font-size: 80px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  .middle-section .banner-section {
+    background-size: cover;
+  }
+  .middle-section .perk-section .heading h3 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .middle-section .perk-section .heading h3::after {
+    width: 100px;
+    bottom: -20px;
+  }
+  .middle-section .perk-section .peark-circle-root .perkbox .peark-circle {
+    height: 120px;
+    width: 118px;
+  }
+  .middle-section .perk-section .peark-circle-root .perkbox .peark-circle img {
+    width: 60px;
+    height: 60px;
+  }
+  .middle-section .finance-section .purchase-box-root .purchase-box h2 {
+    font-size: 80px;
+  }
+}
+
 /* ###########################################################################
 ############################## media query started ###############################
 ###################################################################################### */
