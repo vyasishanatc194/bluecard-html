@@ -246,12 +246,14 @@ fieldset {
       .box-inner {
         background-color: #fff;
         width: 100%;
-        min-height: 200px;
+        min-height: 250px;
+        max-height: 250px;
         padding: 40px 60px;
 
         img {
           width: 100%;
           object-fit: cover;
+          transition: all 0.3s;
         }
       }
 
@@ -706,7 +708,7 @@ fieldset {
       padding-left: 20px;
 
       p {
-        font-size: 37px;
+        font-size: 33px;
         line-height: 50px;
         color: #5d5c67;
         margin-bottom: 0;
@@ -714,7 +716,7 @@ fieldset {
 
         a {
           color: #13749c;
-          font-size: 37px;
+          font-size: 33px;
         }
       }
     }
@@ -920,6 +922,10 @@ fieldset {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+
+  .header .logo-site .logo-link img.logo {
+    height: 80px;
+  }
   .middle-section {
     .banner-section {
       background-size: cover;
@@ -1008,7 +1014,7 @@ fieldset {
           .peark-circle {
             height: 120px;
             width: 118px;
-            
+
             img {
               width: 60px;
               height: 60px;

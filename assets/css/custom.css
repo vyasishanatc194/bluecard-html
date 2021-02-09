@@ -237,7 +237,8 @@ fieldset {
 .middle-section .banner-section .box-apply .box-inner {
   background-color: #fff;
   width: 100%;
-  min-height: 200px;
+  min-height: 250px;
+  max-height: 250px;
   padding: 40px 60px;
 }
 
@@ -245,6 +246,8 @@ fieldset {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .middle-section .banner-section .box-apply .btn-groups .btn-apply {
@@ -752,7 +755,7 @@ fieldset {
 }
 
 .middle-section .contact-section .contact-number p {
-  font-size: 37px;
+  font-size: 33px;
   line-height: 50px;
   color: #5d5c67;
   margin-bottom: 0;
@@ -761,7 +764,7 @@ fieldset {
 
 .middle-section .contact-section .contact-number p a {
   color: #13749c;
-  font-size: 37px;
+  font-size: 33px;
 }
 
 .middle-section .term-section {
@@ -903,6 +906,9 @@ fieldset {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+  .header .logo-site .logo-link img.logo {
+    height: 80px;
+  }
   .middle-section .banner-section {
     background-size: cover;
   }
