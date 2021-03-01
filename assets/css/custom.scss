@@ -228,6 +228,11 @@ fieldset {
       color: #026d92;
       font-weight: 300;
       text-align: center;
+      text-transform: uppercase;
+      
+      a {
+        color: #026d92;
+      }
     }
   }
 
@@ -270,6 +275,13 @@ fieldset {
           justify-content: center;
           height: 60px;
           border-radius: 0;
+          transition: all 0.3s;
+          text-decoration: underline;
+
+          &:hover {
+            background-color: #13749c;
+            transition: all 0.3s;
+          }
         }
       }
     }
@@ -338,6 +350,7 @@ fieldset {
           font-weight: 400;
           text-align: center;
           text-transform: uppercase;
+          max-width: 230px;
         }
 
         p {
@@ -356,6 +369,14 @@ fieldset {
         color: #5d5d5d;
         text-align: center;
       }
+    }
+  }
+
+  .row-7 {
+    margin: 0 -7px;
+
+    .pad-7 {
+      padding: 0 7px;
     }
   }
 
@@ -391,13 +412,13 @@ fieldset {
 
     .purchase-box-root {
       .purchase-box {
-        padding: 10px 20px;
+        padding: 10px 10px;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
         background-color: #f6f6f5;
-        margin-bottom: 30px;
+        margin-bottom: 15px;
         box-shadow: 0 3px 6px 0px rgba(0, 0, 0, 0.16);
 
         h2 {
@@ -455,7 +476,7 @@ fieldset {
     }
 
     .card-line {
-      padding: 100px 0;
+      padding: 0px 0 44px 0;
       text-align: center;
 
       .card-imgs {
@@ -549,9 +570,11 @@ fieldset {
     }
 
     .btn-div {
-      padding: 30px 0;
+      padding: 0px 0;
 
       .btn-apply {
+        position: relative;
+        top: -28px;
         max-width: 280px;
         background-color: #0c6d92;
         color: #ffffff;
@@ -566,6 +589,13 @@ fieldset {
         font-size: 22px;
         line-height: 33px;
         font-weight: 300;
+
+        transition: all 0.3s;
+          
+        &:hover {
+          background-color: #13749c;
+          transition: all 0.3s;
+        }
       }
 
       .btn-lg {
@@ -582,7 +612,7 @@ fieldset {
 
       .cc-img {
         position: absolute;
-        left: -70px;
+        left: 0px;
         top: -70px;
         display: block;
 
@@ -599,7 +629,7 @@ fieldset {
           text-align: center;
           position: relative;
           text-transform: uppercase;
-          padding: 20px 0 0 0;
+          padding: 30px 0 0 0;
           margin-bottom: 20px;
 
           &::after {
@@ -625,7 +655,7 @@ fieldset {
     .login-account {
       margin-top: 50px;
       background-color: #fafafa;
-      padding: 20px 20px;
+      padding: 20px 20px 60px 20px;
       width: 100%;
       display: flex;
       align-items: center;
@@ -712,11 +742,13 @@ fieldset {
         line-height: 50px;
         color: #5d5c67;
         margin-bottom: 0;
-        font-weight: 300;
+        font-weight: 100;
+        text-align: center;
 
         a {
           color: #13749c;
           font-size: 33px;
+          text-decoration: underline;
         }
       }
     }
@@ -730,8 +762,13 @@ fieldset {
       P {
         font-weight: 300;
         font-size: 14px;
-        line-height: 24px;
+        line-height: 20px;
         margin-bottom: 10px;
+        color: #000;
+
+        a {
+          color: #000;
+        }
       }
     }
   }
@@ -739,13 +776,20 @@ fieldset {
 
 @media (max-width: 767px) {
   .header {
+      min-height: 70px;
+      height: auto;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
     .logo-site {
       padding: 15px 0;
 
       .logo-link {
         img {
           &.logo {
-            height: 50px;
+            height: 40px;
           }
         }
       }
@@ -755,7 +799,7 @@ fieldset {
   .middle-section {
     .heading-section {
       h4 {
-        font-size: 22px;
+        font-size: 18px;
         line-height: 28px;
         color: #026d92;
       }
@@ -763,21 +807,45 @@ fieldset {
 
     .banner-section {
       background-size: cover;
+      background-position: 40% center;
+
+      .banner-inner {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        height: 460px;
+
+      }
 
       .box-apply {
         max-width: 300px;
+        margin-top: 100px;
 
         .box-inner {
           min-height: unset;
-          padding: 40px 60px;
+          padding: 20px 60px;
         }
+
+        .btn-groups {
+          .btn-apply {
+            height: 40px;
+            font-size: 16px;
+          }
+        }
+
       }
     }
 
     .perk-section {
+      padding: 40px 0 20px 0;
+
       .heading h3 {
         font-size: 24px;
         line-height: 30px;
+        
+        strong {
+          display: block;
+        }
 
         &::after {
           width: 100px;
@@ -788,29 +856,55 @@ fieldset {
       .peark-circle-root {
         .perkbox {
           .peark-circle {
-            height: 120px;
-            width: 118px;
+            height: 114px;
+            width: 114px;
 
             img {
-              width: 60px;
-              height: 60px;
+              width: 54px;
+              height: 54px;
             }
           }
+
+          padding-bottom: 10px;
+
+          h3 {
+            font-size: 18px;
+            line-height: 26px;
+            max-width: 150px;
+          }
+           P {
+             max-width: 200px;
+           }
         }
+      }
+
+      .note {
+        padding: 0 20px;
+         P {
+         
+           line-height: 24px;
+         }
       }
     }
 
     .finance-section {
+      padding-top: 0;
       .heading {
+        padding-bottom: 40px;
+
         h3 {
-          font-size: 24px;
+          font-size: 18px;
           line-height: 30px;
 
           &::after {
             width: 100px;
-            bottom: -20px;
+            bottom: -15px;
           }
         }
+      }
+
+      .card-line {
+        padding: 0 0 10px 0;
       }
     }
 
@@ -844,7 +938,7 @@ fieldset {
           }
 
           p {
-            font-size: 18px;
+            font-size: 14px;
             line-height: 26px;
           }
         }
@@ -854,20 +948,21 @@ fieldset {
 
         .cc-img {
           position: absolute;
-          left: -15px;
-          top: -70px;
-          width: 150px;
+          left: 50px;
+          top: -40px;
+          width: 130px;
           display: block;
           height: 150px;
         }
         .content {
-          
+          padding: 40px 0 0 0;
           h3 {
-            font-size: 26px;
-            line-height: 35px;
+            font-size: 18px;
+            line-height: 28px;
 
             &::after {
-              width: 80px;
+              width: 130px;
+              top: -10px;
             }
           }
         }
@@ -876,15 +971,32 @@ fieldset {
       .login-account {
         display: flex;
         flex-direction: column;
-
+        position: relative;
         .left {
           max-width: unset;
           border-right: 0;
-          border-bottom: 3px solid #b03c3d;
+          border-bottom: 0px solid #b03c3d;
+          width: 100%;
+          text-align: center;
 
           h3 {
-            font-size: 18px;
-            line-height: 24px;
+            font-size: 20px;
+            line-height: 33px;
+            margin-bottom: 10px;
+            position: relative;
+
+            &::after {
+              content: "";
+              background-color: #c12f37;
+              height: 3px;
+              width: 180px;
+              display: block;
+              position: absolute;
+              left: 0;
+              right: 0;
+              margin: 0 auto;
+              bottom: -15px; 
+            }
           }
         }
 
@@ -893,11 +1005,16 @@ fieldset {
 
           ul {
             li {
-              font-size: 16px;
-              line-height: 26px;
+              font-size: 18px;
+              line-height: 36px;
               text-align: left;
             }
           }
+        }
+      }
+      .note {
+        p {
+          display: inline;
         }
       }
     }
@@ -907,8 +1024,9 @@ fieldset {
       flex-direction: column;
 
       .contact-img {
-        height: 120px;
-        width: 120px;
+        height: 164px;
+        width: 164px;
+        margin-bottom: 30px;
 
         img {
           width: 60px;
@@ -916,9 +1034,11 @@ fieldset {
       }
 
       .contact-number {
+        padding-left: 0;
+
         p {
-          font-size: 16px;
-          line-height: 26px;
+          font-size: 18px;
+          line-height: 35px;
           text-align: center;
 
           a {
@@ -933,10 +1053,26 @@ fieldset {
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
+  .header {
+    height: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
   .header .logo-site .logo-link img.logo {
     height: 80px;
   }
   .middle-section {
+
+    .heading-section {
+      h4 {
+        max-width: 500px;
+        margin: 0 auto 10px auto;
+      }
+    }
+    
     .banner-section {
       background-size: cover;
     }
@@ -975,7 +1111,7 @@ fieldset {
       .learn-how {
         .cc-img {
           position: absolute;
-          left: -30px;
+          left: -10px;
           top: -70px;
           width: 200px;
           display: block;
@@ -1053,7 +1189,20 @@ fieldset {
   }
 }
 
-/* ###########################################################################
-############################## media query started ###############################
-###################################################################################### */
+@media screen 
+  and (device-width: 1536px) 
+  and (device-height: 2048px) 
+  and (-webkit-min-device-pixel-ratio: 1.331) 
+  and (-webkit-max-device-pixel-ratio: 1.332) 
+  and (orientation: portrait) {
+
+  .header {
+    height: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
 

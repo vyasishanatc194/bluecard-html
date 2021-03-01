@@ -217,6 +217,11 @@ fieldset {
   color: #026d92;
   font-weight: 300;
   text-align: center;
+  text-transform: uppercase;
+}
+
+.middle-section .heading-section h4 a {
+  color: #026d92;
 }
 
 .middle-section .banner-section {
@@ -268,6 +273,15 @@ fieldset {
           justify-content: center;
   height: 60px;
   border-radius: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-decoration: underline;
+}
+
+.middle-section .banner-section .box-apply .btn-groups .btn-apply:hover {
+  background-color: #13749c;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .middle-section .perk-section {
@@ -351,6 +365,7 @@ fieldset {
   font-weight: 400;
   text-align: center;
   text-transform: uppercase;
+  max-width: 230px;
 }
 
 .middle-section .perk-section .peark-circle-root .perkbox p {
@@ -365,6 +380,14 @@ fieldset {
   line-height: 30px;
   color: #5d5d5d;
   text-align: center;
+}
+
+.middle-section .row-7 {
+  margin: 0 -7px;
+}
+
+.middle-section .row-7 .pad-7 {
+  padding: 0 7px;
 }
 
 .middle-section .finance-section {
@@ -400,7 +423,7 @@ fieldset {
 }
 
 .middle-section .finance-section .purchase-box-root .purchase-box {
-  padding: 10px 20px;
+  padding: 10px 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -415,7 +438,7 @@ fieldset {
       -ms-flex-direction: column;
           flex-direction: column;
   background-color: #f6f6f5;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   -webkit-box-shadow: 0 3px 6px 0px rgba(0, 0, 0, 0.16);
           box-shadow: 0 3px 6px 0px rgba(0, 0, 0, 0.16);
 }
@@ -473,7 +496,7 @@ fieldset {
 }
 
 .middle-section .finance-section .card-line {
-  padding: 100px 0;
+  padding: 0px 0 44px 0;
   text-align: center;
 }
 
@@ -575,10 +598,12 @@ fieldset {
 }
 
 .middle-section .finance-section .btn-div {
-  padding: 30px 0;
+  padding: 0px 0;
 }
 
 .middle-section .finance-section .btn-div .btn-apply {
+  position: relative;
+  top: -28px;
   max-width: 280px;
   background-color: #0c6d92;
   color: #ffffff;
@@ -599,6 +624,14 @@ fieldset {
   font-size: 22px;
   line-height: 33px;
   font-weight: 300;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.middle-section .finance-section .btn-div .btn-apply:hover {
+  background-color: #13749c;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .middle-section .finance-section .btn-div .btn-lg {
@@ -615,7 +648,7 @@ fieldset {
 
 .middle-section .finance-section .learn-how .cc-img {
   position: absolute;
-  left: -70px;
+  left: 0px;
   top: -70px;
   display: block;
 }
@@ -628,7 +661,7 @@ fieldset {
   text-align: center;
   position: relative;
   text-transform: uppercase;
-  padding: 20px 0 0 0;
+  padding: 30px 0 0 0;
   margin-bottom: 20px;
 }
 
@@ -652,7 +685,7 @@ fieldset {
 .middle-section .finance-section .login-account {
   margin-top: 50px;
   background-color: #fafafa;
-  padding: 20px 20px;
+  padding: 20px 20px 60px 20px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -759,12 +792,14 @@ fieldset {
   line-height: 50px;
   color: #5d5c67;
   margin-bottom: 0;
-  font-weight: 300;
+  font-weight: 100;
+  text-align: center;
 }
 
 .middle-section .contact-section .contact-number p a {
   color: #13749c;
   font-size: 33px;
+  text-decoration: underline;
 }
 
 .middle-section .term-section {
@@ -775,55 +810,124 @@ fieldset {
 .middle-section .term-section .content P {
   font-weight: 300;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 20px;
   margin-bottom: 10px;
+  color: #000;
+}
+
+.middle-section .term-section .content P a {
+  color: #000;
 }
 
 @media (max-width: 767px) {
+  .header {
+    min-height: 70px;
+    height: auto;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
   .header .logo-site {
     padding: 15px 0;
   }
   .header .logo-site .logo-link img.logo {
-    height: 50px;
+    height: 40px;
   }
   .middle-section .heading-section h4 {
-    font-size: 22px;
+    font-size: 18px;
     line-height: 28px;
     color: #026d92;
   }
   .middle-section .banner-section {
     background-size: cover;
+    background-position: 40% center;
+  }
+  .middle-section .banner-section .banner-inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    height: 460px;
   }
   .middle-section .banner-section .box-apply {
     max-width: 300px;
+    margin-top: 100px;
   }
   .middle-section .banner-section .box-apply .box-inner {
     min-height: unset;
-    padding: 40px 60px;
+    padding: 20px 60px;
+  }
+  .middle-section .banner-section .box-apply .btn-groups .btn-apply {
+    height: 40px;
+    font-size: 16px;
+  }
+  .middle-section .perk-section {
+    padding: 40px 0 20px 0;
   }
   .middle-section .perk-section .heading h3 {
     font-size: 24px;
     line-height: 30px;
   }
+  .middle-section .perk-section .heading h3 strong {
+    display: block;
+  }
   .middle-section .perk-section .heading h3::after {
     width: 100px;
     bottom: -20px;
   }
+  .middle-section .perk-section .peark-circle-root .perkbox {
+    padding-bottom: 10px;
+  }
   .middle-section .perk-section .peark-circle-root .perkbox .peark-circle {
-    height: 120px;
-    width: 118px;
+    height: 114px;
+    width: 114px;
   }
   .middle-section .perk-section .peark-circle-root .perkbox .peark-circle img {
-    width: 60px;
-    height: 60px;
+    width: 54px;
+    height: 54px;
+  }
+  .middle-section .perk-section .peark-circle-root .perkbox h3 {
+    font-size: 18px;
+    line-height: 26px;
+    max-width: 150px;
+  }
+  .middle-section .perk-section .peark-circle-root .perkbox P {
+    max-width: 200px;
+  }
+  .middle-section .perk-section .note {
+    padding: 0 20px;
+  }
+  .middle-section .perk-section .note P {
+    line-height: 24px;
+  }
+  .middle-section .finance-section {
+    padding-top: 0;
+  }
+  .middle-section .finance-section .heading {
+    padding-bottom: 40px;
   }
   .middle-section .finance-section .heading h3 {
-    font-size: 24px;
+    font-size: 18px;
     line-height: 30px;
   }
   .middle-section .finance-section .heading h3::after {
     width: 100px;
-    bottom: -20px;
+    bottom: -15px;
+  }
+  .middle-section .finance-section .card-line {
+    padding: 0 0 10px 0;
   }
   .middle-section .finance-section .purchase-box-root .purchase-box h2 {
     font-size: 70px;
@@ -842,23 +946,27 @@ fieldset {
     line-height: 35px;
   }
   .middle-section .finance-section .mattress-purcahse .mat-body p {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 26px;
   }
   .middle-section .finance-section .learn-how .cc-img {
     position: absolute;
-    left: -15px;
-    top: -70px;
-    width: 150px;
+    left: 50px;
+    top: -40px;
+    width: 130px;
     display: block;
     height: 150px;
   }
+  .middle-section .finance-section .learn-how .content {
+    padding: 40px 0 0 0;
+  }
   .middle-section .finance-section .learn-how .content h3 {
-    font-size: 26px;
-    line-height: 35px;
+    font-size: 18px;
+    line-height: 28px;
   }
   .middle-section .finance-section .learn-how .content h3::after {
-    width: 80px;
+    width: 130px;
+    top: -10px;
   }
   .middle-section .finance-section .login-account {
     display: -webkit-box;
@@ -868,23 +976,43 @@ fieldset {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    position: relative;
   }
   .middle-section .finance-section .login-account .left {
     max-width: unset;
     border-right: 0;
-    border-bottom: 3px solid #b03c3d;
+    border-bottom: 0px solid #b03c3d;
+    width: 100%;
+    text-align: center;
   }
   .middle-section .finance-section .login-account .left h3 {
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 33px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  .middle-section .finance-section .login-account .left h3::after {
+    content: "";
+    background-color: #c12f37;
+    height: 3px;
+    width: 180px;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: -15px;
   }
   .middle-section .finance-section .login-account .right {
     text-align: center;
   }
   .middle-section .finance-section .login-account .right ul li {
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 18px;
+    line-height: 36px;
     text-align: left;
+  }
+  .middle-section .finance-section .note p {
+    display: inline;
   }
   .middle-section .contact-section .contact {
     display: -webkit-box;
@@ -896,15 +1024,19 @@ fieldset {
             flex-direction: column;
   }
   .middle-section .contact-section .contact .contact-img {
-    height: 120px;
-    width: 120px;
+    height: 164px;
+    width: 164px;
+    margin-bottom: 30px;
   }
   .middle-section .contact-section .contact .contact-img img {
     width: 60px;
   }
+  .middle-section .contact-section .contact .contact-number {
+    padding-left: 0;
+  }
   .middle-section .contact-section .contact .contact-number p {
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 18px;
+    line-height: 35px;
     text-align: center;
   }
   .middle-section .contact-section .contact .contact-number p a {
@@ -914,8 +1046,25 @@ fieldset {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+  .header {
+    height: auto;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
   .header .logo-site .logo-link img.logo {
     height: 80px;
+  }
+  .middle-section .heading-section h4 {
+    max-width: 500px;
+    margin: 0 auto 10px auto;
   }
   .middle-section .banner-section {
     background-size: cover;
@@ -941,7 +1090,7 @@ fieldset {
   }
   .middle-section .finance-section .learn-how .cc-img {
     position: absolute;
-    left: -30px;
+    left: -10px;
     top: -70px;
     width: 200px;
     display: block;
@@ -1002,7 +1151,19 @@ fieldset {
   }
 }
 
-/* ###########################################################################
-############################## media query started ###############################
-###################################################################################### */
+@media screen and (device-width: 1536px) and (device-height: 2048px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) and (orientation: portrait) {
+  .header {
+    height: auto;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
 /*# sourceMappingURL=custom.css.map */
