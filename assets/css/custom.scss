@@ -673,6 +673,7 @@ fieldset {
           font-weight: 300;
           text-transform: uppercase;
           margin-bottom: 0;
+          text-align: center;
         }
       }
 
@@ -968,10 +969,20 @@ fieldset {
         }
       }
 
+      .btn-div {
+        .btn-lg {
+          margin: 0 20px;
+          top: -75px;
+          width: calc(100% - 40px);
+        }
+      }
+
       .login-account {
         display: flex;
         flex-direction: column;
         position: relative;
+        padding-bottom: 90px;
+
         .left {
           max-width: unset;
           border-right: 0;
@@ -1193,16 +1204,44 @@ fieldset {
   and (device-width: 1536px) 
   and (device-height: 2048px) 
   and (-webkit-min-device-pixel-ratio: 1.331) 
-  and (-webkit-max-device-pixel-ratio: 1.332) 
-  and (orientation: portrait) {
-
-  .header {
-    height: auto;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+  and (-webkit-max-device-pixel-ratio: 1.332) {
+    .header {
+      height: auto;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
 }
 
+/* Portrait */
+@media screen 
+  and (device-width: 1536px) 
+  and (device-height: 2048px) 
+  and (-webkit-min-device-pixel-ratio: 1.331) 
+  and (-webkit-max-device-pixel-ratio: 1.332) 
+  and (orientation: portrait) {
+    .header {
+      height: auto;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+}
 
+/* Landscape */
+@media screen 
+  and (device-width: 1536px) 
+  and (device-height: 2048px) 
+  and (-webkit-min-device-pixel-ratio: 1.331) 
+  and (-webkit-max-device-pixel-ratio: 1.332) 
+  and (orientation: landscape) {
+    .header {
+      height: auto;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+}

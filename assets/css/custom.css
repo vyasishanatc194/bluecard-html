@@ -711,6 +711,7 @@ fieldset {
   font-weight: 300;
   text-transform: uppercase;
   margin-bottom: 0;
+  text-align: center;
 }
 
 .middle-section .finance-section .login-account .right {
@@ -968,6 +969,11 @@ fieldset {
     width: 130px;
     top: -10px;
   }
+  .middle-section .finance-section .btn-div .btn-lg {
+    margin: 0 20px;
+    top: -75px;
+    width: calc(100% - 40px);
+  }
   .middle-section .finance-section .login-account {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -977,6 +983,7 @@ fieldset {
         -ms-flex-direction: column;
             flex-direction: column;
     position: relative;
+    padding-bottom: 90px;
   }
   .middle-section .finance-section .login-account .left {
     max-width: unset;
@@ -1151,7 +1158,41 @@ fieldset {
   }
 }
 
+@media screen and (device-width: 1536px) and (device-height: 2048px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) {
+  .header {
+    height: auto;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+/* Portrait */
 @media screen and (device-width: 1536px) and (device-height: 2048px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) and (orientation: portrait) {
+  .header {
+    height: auto;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+/* Landscape */
+@media screen and (device-width: 1536px) and (device-height: 2048px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) and (orientation: landscape) {
   .header {
     height: auto;
     position: relative;
