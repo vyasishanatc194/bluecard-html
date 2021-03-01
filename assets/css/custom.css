@@ -820,6 +820,20 @@ fieldset {
   color: #000;
 }
 
+@media (max-width: 320px) {
+  .middle-section .contact-section .contact .contact-number p {
+    font-size: 14px !important;
+    line-height: 28px !important;
+  }
+  .middle-section .contact-section .contact .contact-number p a {
+    font-size: 14px !important;
+    line-height: 28px !important;
+  }
+  .middle-section .finance-section .purchase-box-root .purchase-box p {
+    font-size: 11px !important;
+  }
+}
+
 @media (max-width: 767px) {
   .header {
     min-height: 70px;
@@ -969,10 +983,17 @@ fieldset {
     width: 130px;
     top: -10px;
   }
+  .middle-section .finance-section .btn-div .btn-apply {
+    max-width: 265px;
+    margin: 0 auto;
+  }
   .middle-section .finance-section .btn-div .btn-lg {
-    margin: 0 20px;
+    margin: 0 auto;
     top: -75px;
     width: calc(100% - 40px);
+    max-width: unset;
+    font-size: 18px;
+    line-height: 24px;
   }
   .middle-section .finance-section .login-account {
     display: -webkit-box;
@@ -1042,13 +1063,13 @@ fieldset {
     padding-left: 0;
   }
   .middle-section .contact-section .contact .contact-number p {
-    font-size: 18px;
+    font-size: 17px;
     line-height: 35px;
     text-align: center;
   }
   .middle-section .contact-section .contact .contact-number p a {
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 18px;
+    line-height: 35px;
   }
 }
 
@@ -1065,6 +1086,7 @@ fieldset {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    min-height: 90px;
   }
   .header .logo-site .logo-link img.logo {
     height: 80px;
@@ -1171,6 +1193,7 @@ fieldset {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    min-height: 100px;
   }
 }
 
@@ -1188,6 +1211,7 @@ fieldset {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    min-height: 100px;
   }
 }
 
@@ -1205,6 +1229,7 @@ fieldset {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    min-height: 100px;
   }
 }
 /*# sourceMappingURL=custom.css.map */
