@@ -643,7 +643,7 @@ fieldset {
   position: relative;
   min-height: 218px;
   margin-top: 100px;
-  padding: 30px 0 0 0;
+  padding: 30px 0 20px 0;
 }
 
 .middle-section .finance-section .learn-how .cc-img {
@@ -948,6 +948,9 @@ fieldset {
     font-size: 70px;
     line-height: 90px;
   }
+  .middle-section .finance-section .purchase-box-root .purchase-box p {
+    min-height: 30px;
+  }
   .middle-section .finance-section .mattress-purcahse .mat-heading h3 {
     font-size: 16px;
     line-height: 26px;
@@ -1057,7 +1060,8 @@ fieldset {
     margin-bottom: 30px;
   }
   .middle-section .contact-section .contact .contact-img img {
-    width: 60px;
+    width: 80px;
+    height: auto;
   }
   .middle-section .contact-section .contact .contact-number {
     padding-left: 0;
@@ -1117,6 +1121,10 @@ fieldset {
   .middle-section .finance-section .purchase-box-root .purchase-box h2 {
     font-size: 80px;
   }
+  .middle-section .finance-section .learn-how .content h3 {
+    font-size: 28px;
+    line-height: 40px;
+  }
   .middle-section .finance-section .learn-how .cc-img {
     position: absolute;
     left: -10px;
@@ -1142,7 +1150,8 @@ fieldset {
     width: 120px;
   }
   .middle-section .contact-section .contact .contact-img img {
-    width: 60px;
+    width: 80px;
+    height: auto;
   }
   .middle-section .contact-section .contact .contact-number p {
     font-size: 24px;
@@ -1152,6 +1161,14 @@ fieldset {
   .middle-section .contact-section .contact .contact-number p a {
     font-size: 24px;
     line-height: 35px;
+  }
+  .middle-section .finance-section .login-account .left h3 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .middle-section .finance-section .login-account .right ul li {
+    font-size: 20px;
+    line-height: 32px;
   }
 }
 
@@ -1177,6 +1194,85 @@ fieldset {
   }
   .middle-section .finance-section .purchase-box-root .purchase-box h2 {
     font-size: 80px;
+  }
+}
+
+@media (min-width: 1100px) and (max-width: 1400px) {
+  .middle-section .contact-section .contact .contact-img {
+    min-width: 140px;
+    width: 140px;
+    height: 140px;
+  }
+  .middle-section .contact-section .contact .contact-img img {
+    height: 80px;
+    width: 80px;
+  }
+  .middle-section .contact-section .contact .contact-number p {
+    font-size: 26px;
+    line-height: 38px;
+  }
+  .middle-section .contact-section .contact .contact-number p a {
+    font-size: 26px;
+    line-height: 38px;
+  }
+  .middle-section .finance-section .purchase-box-root .purchase-box p {
+    min-height: 30px;
+  }
+  .middle-section .finance-section .learn-how {
+    padding: 60px 0 40px 0;
+  }
+  .middle-section .finance-section .learn-how .content h3 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .middle-section .finance-section .learn-how .cc-img {
+    width: 180px;
+  }
+  .middle-section .finance-section .login-account .left h3 {
+    font-size: 28px;
+    line-height: 42px;
+  }
+  .middle-section .finance-section .login-account .right ul li {
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1099px) {
+  .middle-section .contact-section .contact .contact-img {
+    min-width: 120px;
+    width: 120px;
+    height: 120px;
+  }
+  .middle-section .contact-section .contact .contact-img img {
+    height: 70px;
+    width: 70px;
+  }
+  .middle-section .contact-section .contact .contact-number p {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .middle-section .contact-section .contact .contact-number p a {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .middle-section .finance-section .learn-how {
+    padding: 50px 0 40px 0;
+  }
+  .middle-section .finance-section .learn-how .content h3 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .middle-section .finance-section .learn-how .cc-img {
+    width: 160px;
+  }
+  .middle-section .finance-section .login-account .left h3 {
+    font-size: 22px;
+    line-height: 34px;
+  }
+  .middle-section .finance-section .login-account .right ul li {
+    font-size: 19px;
+    line-height: 32px;
   }
 }
 

@@ -608,7 +608,7 @@ fieldset {
       position: relative;
       min-height: 218px;
       margin-top: 100px;
-      padding: 30px 0 0 0;
+      padding: 30px 0 20px 0;
 
       .cc-img {
         position: absolute;
@@ -914,6 +914,7 @@ fieldset {
 
     .finance-section {
       padding-top: 0;
+
       .heading {
         padding-bottom: 40px;
 
@@ -939,6 +940,10 @@ fieldset {
           h2 {
             font-size: 70px;
             line-height: 90px;
+          }
+
+          p{
+            min-height: 30px;
           }
         }
       }
@@ -1056,6 +1061,7 @@ fieldset {
           }
         }
       }
+
       .note {
         p {
           display: inline;
@@ -1073,7 +1079,8 @@ fieldset {
         margin-bottom: 30px;
 
         img {
-          width: 60px;
+          width: 80px;
+          height: auto;
         }
       }
 
@@ -1154,6 +1161,14 @@ fieldset {
 
     .finance-section {
       .learn-how {
+
+        .content {
+          h3 {
+            font-size: 28px;
+            line-height: 40px;
+          }
+        }
+
         .cc-img {
           position: absolute;
           left: -10px;
@@ -1175,7 +1190,8 @@ fieldset {
         width: 120px;
 
         img {
-          width: 60px;
+          width: 80px;
+          height: auto;
         }
       }
 
@@ -1190,6 +1206,21 @@ fieldset {
             line-height: 35px;
           }
         }
+      }
+    }
+
+    .finance-section .login-account {
+
+      .left {
+        h3 {
+          font-size: 24px;
+          line-height: 34px;
+        }
+      }
+
+      .right ul li {
+        font-size: 20px;
+        line-height: 32px;
       }
     }
   }
@@ -1232,6 +1263,135 @@ fieldset {
       font-size: 80px;
     }
   }
+}
+
+@media (min-width: 1100px) and (max-width: 1400px)  {
+  .middle-section {
+
+    .contact-section {
+      .contact {
+        .contact-img {
+          min-width: 140px;
+          width: 140px;
+          height: 140px;
+          
+          img {
+            height: 80px;
+            width: 80px;
+          }
+        }
+
+        .contact-number {
+          p {
+            font-size: 26px;
+            line-height: 38px;
+
+            a {
+              font-size: 26px;
+              line-height: 38px;
+            }
+          }
+        }
+      }
+    }
+
+    .finance-section .purchase-box-root .purchase-box p {
+      min-height: 30px;
+    }
+
+
+    .finance-section .learn-how  {
+      padding: 60px 0 40px 0;
+
+      .content {
+        h3 {
+          font-size: 28px;
+          line-height: 40px;
+        }
+      }
+
+      .cc-img {
+        width: 180px;
+      }
+    }
+
+    .finance-section .login-account {
+
+      .left {
+        h3 {
+          font-size: 28px;
+          line-height: 42px;
+        }
+      }
+      .right ul li {
+        font-size: 20px;
+        line-height: 32px;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1099px)   {
+
+    .middle-section {
+      .contact-section {
+        .contact {
+          .contact-img {
+            min-width: 120px;
+            width: 120px;
+            height: 120px;
+            
+            img {
+              height: 70px;
+              width: 70px;
+            }
+          }
+  
+          .contact-number {
+            p {
+              font-size: 24px;
+              line-height: 36px;
+  
+              a {
+                font-size: 24px;
+                line-height: 36px;
+              }
+            }
+          }
+        }
+      }
+
+      .finance-section .learn-how  {
+        padding: 50px 0 40px 0;
+  
+        .content {
+          h3 {
+            font-size: 28px;
+            line-height: 40px;
+          }
+        }
+
+        .cc-img {
+          width: 160px;
+        }
+      }
+
+      .finance-section .login-account {
+
+        .left {
+          h3 {
+            font-size: 22px;
+            line-height: 34px;
+          }
+        }
+
+        .right ul li {
+          font-size: 19px;
+          line-height: 32px;
+        }
+      }
+    }
+
 }
 
 @media screen 
